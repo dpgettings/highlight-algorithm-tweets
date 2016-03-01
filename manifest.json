@@ -1,0 +1,12 @@
+{
+    "name": "Algorithmic Tweet Highlighter",
+    "description": "Supplements Twitter's CSS to highlight non-chronological, algorithmically ranked tweets",
+    "content_scripts": [ {
+	"all_frames": true,
+        "matches": [ "*://twitter.com/*", "*://*.twitter.com/*" ],
+        "css": ["content.css"],
+        "run_at" : "document_start"
+    } ],
+    "manifest_version": 2,
+    "version": "0.0.1"
+}

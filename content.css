@@ -1,0 +1,4 @@
+/* algorithmic tweet <div>s all have this particular attribute */
+div[data-component-context="suggest_ranked_timeline_tweet"] {
+    border-left: 2px solid #ccc !important;
+}
