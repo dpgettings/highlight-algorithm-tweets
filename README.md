@@ -2,7 +2,7 @@
 
 A (tiny) Chrome extension to fix an annoying problem with Twitter's new algorithmic timeline.
 
-## Outline
+## Overview
 
 Twitter recently started showing a selection of algorithmically sorted tweets at the top of users' timelines. The implementation of this feature on Twitter's web interface has an unfortunate design flaw — it's difficult to tell where the non-chronological, algorithmic tweets end and the usual chronologically sorted tweets begin.
 
