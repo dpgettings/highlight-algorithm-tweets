@@ -12,7 +12,7 @@ This project provides a simple Chrome extension that resolves this ambiguity by 
 
 Algorithmically sorted tweets are marked by Twitter with certain `<div>` tag attributes. This extension injects a (very) small amount of CSS onto Twitter's main timeline that identifies and highlights these tweets. Specifically, "algorithmic" tweets are given a thin gray bar that runs down their left edge (see below), connecting them into an easily identifiable "algorithmic timeline" block.
 
-![screenshot 1](./screenshot_1.png?raw=true "Algorithmic (top) vs. Chronological (bottom)")
+![screenshot 1](screenshot-1.png?raw=true "Algorithmic (top) vs. Chronological (bottom)")
 
 ## Installing
 
